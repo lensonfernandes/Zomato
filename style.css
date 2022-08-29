@@ -62,7 +62,7 @@ header{
 }
 
 
-.head h3{
+.head h1{
     font-size: 2.1rem;
     color: whitesmoke;
     font-weight: 400;
@@ -71,4 +71,41 @@ header{
 .search{
     display: flex;
     width: 55vw;
+    align-items: center;
+    border-radius: 10px;
+    background: white;
+    padding: 5px 4px;
+}
+
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search .search-item p{
+    color: gray;
+    border-right: 1px solid gray;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left:10px;
+}
+
+.search .search-item input{
+    outline: none;
+    border: none;
+    width: 200%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.search .search-item:first-child{
+    color: palevioletred;
+    width: 30%;
+}
+
+
+.search .search-item:last-child{
+    color: gray;
+    width: 70%;
 }
